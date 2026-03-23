@@ -1,16 +1,58 @@
-# React + Vite
+# LearnFlow 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A structured e-learning platform where users can browse courses, enroll, watch lessons, and track their progress.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo Flow
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Login → Browse Courses → Enroll → Watch Lessons → Mark Complete → Track Progress
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Hooks)
+- React Router v6 (nested routes)
+- Context API (state management)
+- Tailwind CSS v4
+- Vite
 
-## Expanding the ESLint configuration
+## 📦 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Authentication with protected routes
+- Course catalog with search and category filter
+- Course detail page with lesson list
+- Enrollment system (persisted to localStorage)
+- Lesson player with video embed and sidebar
+- Progress tracking (mark lessons complete + % progress bar)
+- Dashboard with enrolled courses and stats
+
+## 🧠 Custom Hooks
+
+- `useAuth` — handles login/logout and user state
+- `useEnrollment` — manages course enrollment
+- `useProgress` — tracks lesson completion per course
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/     # CourseCard, ProtectedRoute
+├── pages/          # Landing, Login, Register, Catalog, CourseDetail, Dashboard, LessonPlayer, NotFound
+├── hooks/          # useAuth, useEnrollment, useProgress
+├── store/          # AuthContext, EnrollmentContext
+└── data/           # courses.js, users.js
+```
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/YOUR_USERNAME/learn-flow.git
+cd learn-flow
+npm install
+npm run dev
+```
+
+## 🔐 Test Credentials
+
+```
+Email: emmanuel@test.com
+Password: password123
+```
