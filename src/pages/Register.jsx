@@ -37,7 +37,7 @@ export default function Register() {
         </div>
 
         {/* Heading */}
-        <h1 className="font-['Playfair_Display'] text-3xl font-bold text-gray-900 mb-1">
+        <h1 className="font-['Playfair_Display'] text-4xl font-bold text-gray-900 mb-1">
           Create your account
         </h1>
         <p className="text-gray-500 text-sm mb-4">
@@ -135,8 +135,8 @@ export default function Register() {
             Google
           </button>
           <button className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl border border-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-50 transition">
-            <i className="fi fi-brands-facebook text-base" />
-            Facebook
+            <i className="fi fi-brands-github text-base" />
+            GitHub
           </button>
         </div>
 

@@ -115,7 +115,7 @@ export default function Login() {
         </form>
 
         {/* Divider */}
-        <div className="flex items-center gap-3 my-6">
+        <div className="flex items-center gap-3 my-3">
           <div className="flex-1 h-px bg-gray-200" />
           <span className="text-xs text-gray-400">Or sign in with</span>
           <div className="flex-1 h-px bg-gray-200" />
@@ -128,8 +128,8 @@ export default function Login() {
             Google
           </button>
           <button className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl border border-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-50 transition">
-            <i className="fi fi-brands-facebook text-base" />
-            Facebook
+            <i className="fi fi-brands-github text-base" />
+            GitHub
           </button>
         </div>
 
