@@ -101,7 +101,7 @@ export default function LessonPlayer() {
                 <button
                   onClick={() => markComplete(course.id, lesson.id)}
                   disabled={completed}
-                  className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition flex-shrink-0 ${
+                  className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition shrink-0 ${
                     completed
                       ? "bg-green-500/20 text-green-400 cursor-not-allowed"
                       : "text-white hover:opacity-90 active:scale-95"
@@ -173,7 +173,7 @@ export default function LessonPlayer() {
                   }`}
                 >
                   <div
-                    className={`w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 ${
+                    className={`w-6 h-6 rounded-full flex items-center justify-center text-xs shrink-0 ${
                       done
                         ? "bg-green-500 text-white"
                         : active
