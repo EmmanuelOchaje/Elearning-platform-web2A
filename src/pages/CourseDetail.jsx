@@ -168,7 +168,7 @@ export default function CourseDetail() {
                   className="flex items-center gap-4 bg-white border border-gray-100 rounded-xl px-4 py-3"
                 >
                   <div
-                    className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-white flex-shrink-0"
+                    className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0"
                     style={{ background: "#3b0764" }}
                   >
                     {index + 1}
