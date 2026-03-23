@@ -41,7 +41,7 @@ export default function Landing() {
             <>
               <Link
                 to="/login"
-                className="text-sm font-medium text-gray-700 hover:text-purple-800 transition"
+                className="text-sm font-medium flex gap-2 items-center justify-center text-gray-700 hover:text-purple-800 transition"
               >
                 Sign In
               </Link>
