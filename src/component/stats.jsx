@@ -6,9 +6,9 @@ const Stats = () => {
       <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
         {[
           { icon: "fi-rr-book-alt", value: "10+", label: "Courses" },
-          { icon: "fi-rr-users-alt", value: "10k+", label: "Students" },
+          { icon: "fi-rr-users-alt", value: "1k+", label: "Students" },
           { icon: "fi-rr-trophy", value: "95%", label: "Completion Rate" },
-          { icon: "fi-rr-briefcase", value: "500+", label: "Jobs Landed" },
+          { icon: "fi-rr-briefcase", value: "150+", label: "Jobs Landed" },
         ].map((stat) => (
           <div key={stat.label} className="flex flex-col items-center gap-2">
             <div

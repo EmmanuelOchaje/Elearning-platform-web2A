@@ -2,7 +2,7 @@ export const courses = [
   {
     id: 1,
     title: "React from Zero to Hero",
-    instructor: "Emmanuel Ochaje",
+    instructor: "Jonas Schmedtmann",
     category: "Frontend",
     level: "Beginner",
     rating: 4.8,

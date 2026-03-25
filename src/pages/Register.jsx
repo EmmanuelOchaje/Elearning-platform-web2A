@@ -62,7 +62,7 @@ export default function Register() {
               <i className="fi fi-rr-user absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm" />
               <input
                 type="text"
-                placeholder="Emmanuel Ochaje"
+                placeholder="Enter your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
