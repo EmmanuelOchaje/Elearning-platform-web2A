@@ -6,7 +6,7 @@ export const courses = [
     category: "Frontend",
     level: "Beginner",
     rating: 4.8,
-    students: 1240,
+    students: 120,
     duration: "12h 30m",
     price: "Free",
     thumbnail:
@@ -53,7 +53,7 @@ export const courses = [
     category: "Programming",
     level: "Beginner",
     rating: 4.9,
-    students: 3200,
+    students: 200,
     duration: "20h 00m",
     price: "Free",
     thumbnail:
@@ -100,7 +100,7 @@ export const courses = [
     category: "Programming",
     level: "Intermediate",
     rating: 4.7,
-    students: 760,
+    students: 75,
     duration: "10h 00m",
     price: "Free",
     thumbnail:
@@ -141,7 +141,7 @@ export const courses = [
     category: "Programming",
     level: "Beginner",
     rating: 4.8,
-    students: 2800,
+    students: 100,
     duration: "18h 00m",
     price: "Free",
     thumbnail:
@@ -182,7 +182,7 @@ export const courses = [
     category: "Backend",
     level: "Intermediate",
     rating: 4.5,
-    students: 620,
+    students: 60,
     duration: "14h 00m",
     price: "Free",
     thumbnail:
@@ -223,7 +223,7 @@ export const courses = [
     category: "DevTools",
     level: "Beginner",
     rating: 4.9,
-    students: 4100,
+    students: 45,
     duration: "6h 00m",
     price: "Free",
     thumbnail:
@@ -264,7 +264,7 @@ export const courses = [
     category: "Frontend",
     level: "Beginner",
     rating: 4.6,
-    students: 980,
+    students: 100,
     duration: "8h 15m",
     price: "Free",
     thumbnail:
@@ -305,7 +305,7 @@ export const courses = [
     category: "Backend",
     level: "Intermediate",
     rating: 4.7,
-    students: 540,
+    students: 50,
     duration: "11h 30m",
     price: "Free",
     thumbnail:
@@ -346,7 +346,7 @@ export const courses = [
     category: "DevTools",
     level: "Intermediate",
     rating: 4.6,
-    students: 430,
+    students: 25,
     duration: "13h 00m",
     price: "Free",
     thumbnail:
@@ -387,7 +387,7 @@ export const courses = [
     category: "Programming",
     level: "Advanced",
     rating: 4.8,
-    students: 1900,
+    students: 30,
     duration: "22h 00m",
     price: "Free",
     thumbnail:
